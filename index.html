@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+		<div class="col-md-4 col-md-offset-4 mainForm">
+			<h1>Survey</h1>
+			<form id="form" class="form-horizontal">
+				<!-- question 1 using checkboxes -->
+        First name:<br>
+  <input type="text" name="firstname" value="name">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="last name">
+  <br>
+  Age:<br>
+  <input type="text" name="firstname" value="age">
+  <br>
+  Email:<br>
+  <input type="text" name="lastname" value="email">
+  <br>
+				<h3>Overall, I am very satisfied with the way [Company] performed (is performing) on this project.</h3>
+				<div>
+					<label class="checkbox-inline"><input type="checkbox" name="checkbox" value="Strongly Disagree">Strongly Disagree</label>
+				</div>
+				<div>
+					<label class="checkbox-inline"><input type="checkbox" name="checkbox" value="Somewhat Disagree">Somewhat Disagree</label>
+				</div>
+				<div>
+					<label class="checkbox-inline"><input type="checkbox" name="checkbox" value="Neither Agree nor Disagree">Neither Agree nor Disagree</label>
+				</div>
+				<div>
+					<label class="checkbox-inline"><input type="checkbox" name="checkbox" value="Somewhat Agree">Somewhat Agree</label>
+				</div>
+				<div>
+					<label class="checkbox-inline"><input type="checkbox" name="checkbox" value="Strongly Agree">Strongly Agree</label>
+				</div>
+				<br>
+				<!-- question 2 using select and options -->
+				<h3>Based on your experience with [PRODUCT], would you recommend this product to a friend?</h3>
+				<select class="form-control" id="select" name="select">
+					<option value=" Definitely will" name="option"> Definitely will</option>
+					<option value="Probably will" name="option">Probably will</option>
+					<option value=" Might or might not" name="option"> Might or might not</option>
+					<option value="Definitely will not" name="option">Definitely will not</option>
+				</select>
+				<br>
+
+				<!-- question 3 using radio buttons -->
+				<h3>I am satisfied with my decision to buy this [PRODUCT].</h3>
+				<div class="radio">
+					<label><input type="radio" value="Strongly Disagree" name="radio">Strongly Disagree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Neither Agree nor Disagree" name="radio">Neither Agree nor Disagree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Somewhat Agree" name="radio">Somewhat Agree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Strongly Agree" name="radio">Strongly Agree</label>
+				</div>
+        <h3>Was the communication good</h3>
+				<div class="radio">
+					<label><input type="radio" value="Strongly Disagree" name="radio">Strongly Disagree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Neither Agree nor Disagree" name="radio">Neither Agree nor Disagree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Somewhat Agree" name="radio">Somewhat Agree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Strongly Agree" name="radio">Strongly Agree</label>
+				</div>
+        <h3> Was the support provided quick.</h3>
+				<div class="radio">
+					<label><input type="radio" value="Strongly Disagree" name="radio">Strongly Disagree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Neither Agree nor Disagree" name="radio">Neither Agree nor Disagree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Somewhat Agree" name="radio">Somewhat Agree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Strongly Agree" name="radio">Strongly Agree</label>
+				</div>
+        <h3>was the technical support helpful</h3>
+				<div class="radio">
+					<label><input type="radio" value="Strongly Disagree" name="radio">Strongly Disagree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Neither Agree nor Disagree" name="radio">Neither Agree nor Disagree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Somewhat Agree" name="radio">Somewhat Agree</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" value="Strongly Agree" name="radio">Strongly Agree</label>
+				</div>
+				<br>
+        <h3>What is their preferred form of communication</h3>
+        <select class="form-control" id="select" name="select">
+          <option value=" Definitely will" name="option"> Phone</option>
+          <option value="Probably will" name="option">Email</option>
+          <option value=" Might or might not" name="option"> SMS</option>
+
+        </select>
+        <br>
+				<br>
+				<div class="form-actions">
+					<button type="button" id="submitButton" class="btn btn-default">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
